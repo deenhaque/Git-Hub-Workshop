@@ -1,0 +1,47 @@
+//GIT Cheatsheet
+
+//Create
+
+$ git clone ssh://user@domain.com/repo.git			Clone and Existing Repository
+
+$ git init											                Create a new local repository
+
+//Branching & Tags
+
+$ git branch										                List all existing branches
+
+$ git checkout <branch>								          Switch HEAD branch
+
+$ git branch <new-branch>							          Create a new branch based on your current HEAD
+
+$ git stash                                     Pocket local changes for later
+
+$ git stash list                                View all stashes
+
+$ git branch -d <branch>							          Delete a local branch
+
+$ git tag <tag-name>								            Mark the current commit with a tag
+
+//Merge
+
+$ git merge <branch>								            Merge <branch> into your current HEAD
+
+//Local Changes
+
+$ git status										                Changed files in your working directory
+
+$ git commit										                Add some changes in to the next commit
+
+//Update & Publish
+
+$ git pull <remote> <branch>						        Download changes and directly merge/integrate into HEAD
+
+$ git push <remote> <branch>						        Publish local changes on a remote
+
+//Undo
+
+$ git checkout <file>								            Discard local changes in a specific file
+
+$ git revert <commit>								            Revert a commit (by producing a new commit with contrary changes)
+
+//Source Website --> http://git-cheatsheet.com/
