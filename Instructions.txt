@@ -1,0 +1,12 @@
+Here are the instructions to push to the repo!
+
+
+git clone https://github.com/deenhaque/Git-Hub-Workshop.git
+
+Make changes!
+
+git add *
+
+git commit -m "<your name> introduction"
+
+git push -u origin main
